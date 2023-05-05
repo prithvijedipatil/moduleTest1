@@ -1,3 +1,99 @@
 html {
-    background-color: #eeeeee;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #333333;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  margin: 18px;
+  padding: 6px;
+  display: flex;
+  gap: 11px;
+  border: 1px solid #b1a592;
+  border-radius: 50px;
+}
+
+.navbar button {
+  padding: 10px 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #b1a592;
+  color: #b1a592;
+  background-color: transparent;
+}
+
+.navbar button:hover {
+  background-color: #565346;
+  color: #b1a592;
+  border-color: transparent;
+}
+
+.navbar .active {
+  background-color: #b1a592;
+  color: #333333;
+  border-color: transparent;
+}
+
+main {
+  display: flex;
+  gap: 18px;
+}
+
+.city {
+  flex: 38%;
+
+}
+
+.right {
+  flex: 62%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+}
+
+.mom {
+  flex: 100%;
+}
+
+.momFlex {
+  display: flex;
+}
+
+.momContent {
+  flex: 46%;
+}
+
+.momImg {
+  flex: 54%;
+}
+
+.momImg img {
+  width: 100%;
+}
+
+.women {
+  flex-grow: 4;
+}
+
+.shake {
+  flex-grow: 6;
+}
+
+.shakeFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
